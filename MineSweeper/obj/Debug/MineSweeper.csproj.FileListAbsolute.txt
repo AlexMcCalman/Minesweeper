@@ -1,0 +1,26 @@
+c:\users\administrator\documents\visual studio 2015\Projects\MineSweeper\MineSweeper\bin\Debug\MineSweeper.exe.config
+c:\users\administrator\documents\visual studio 2015\Projects\MineSweeper\MineSweeper\bin\Debug\MineSweeper.exe
+c:\users\administrator\documents\visual studio 2015\Projects\MineSweeper\MineSweeper\bin\Debug\MineSweeper.pdb
+c:\users\administrator\documents\visual studio 2015\Projects\MineSweeper\MineSweeper\obj\Debug\MineSweeper.csprojResolveAssemblyReference.cache
+c:\users\administrator\documents\visual studio 2015\Projects\MineSweeper\MineSweeper\obj\Debug\MineSweeper.exe
+c:\users\administrator\documents\visual studio 2015\Projects\MineSweeper\MineSweeper\obj\Debug\MineSweeper.pdb
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\MineSweeper\MineSweeper\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\MineSweeper\MineSweeper\bin\Debug\MySql.Data.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\MineSweeper\MineSweeper\bin\Debug\MySql.Data.Entity.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\MineSweeper\MineSweeper\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\MineSweeper\MineSweeper\bin\Debug\MySql.Fabric.Plugin.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\MineSweeper\MineSweeper\bin\Debug\MySql.Web.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\MineSweeper\MineSweeper\obj\Debug\MineSweeper.csproj.MineSweeper.exe.config
+C:\Users\Administrator\Desktop\WOTSapp\Bonus MineSweeper console game\MineSweeper\bin\Debug\MineSweeper.exe.config
+C:\Users\Administrator\Desktop\WOTSapp\Bonus MineSweeper console game\MineSweeper\obj\Debug\MineSweeper.exe
+C:\Users\Administrator\Desktop\WOTSapp\Bonus MineSweeper console game\MineSweeper\obj\Debug\MineSweeper.pdb
+C:\Users\Administrator\Desktop\WOTSapp\Bonus MineSweeper console game\MineSweeper\obj\Debug\MineSweeper.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\WOTSapp\Bonus MineSweeper console game\MineSweeper\obj\Debug\MineSweeper.csproj.MineSweeper.exe.config
+C:\Users\Administrator\Desktop\WOTSapp\Bonus MineSweeper console game\MineSweeper\bin\Debug\MineSweeper.exe
+C:\Users\Administrator\Desktop\WOTSapp\Bonus MineSweeper console game\MineSweeper\bin\Debug\MineSweeper.pdb
+C:\Users\Administrator\Desktop\WOTSapp\Bonus MineSweeper console game\MineSweeper\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Administrator\Desktop\WOTSapp\Bonus MineSweeper console game\MineSweeper\bin\Debug\MySql.Data.dll
+C:\Users\Administrator\Desktop\WOTSapp\Bonus MineSweeper console game\MineSweeper\bin\Debug\MySql.Data.Entity.dll
+C:\Users\Administrator\Desktop\WOTSapp\Bonus MineSweeper console game\MineSweeper\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\Administrator\Desktop\WOTSapp\Bonus MineSweeper console game\MineSweeper\bin\Debug\MySql.Fabric.Plugin.dll
+C:\Users\Administrator\Desktop\WOTSapp\Bonus MineSweeper console game\MineSweeper\bin\Debug\MySql.Web.dll
