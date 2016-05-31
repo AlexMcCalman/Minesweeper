@@ -17,9 +17,9 @@ namespace MineSweeper
 
             Square[,] board = new Square[boardSize, boardSize];
             
-            for(int i=0; i<boardSize; i++)
+            for (int i = 0; i < boardSize; i++)
             {
-                for(int j=0; j<boardSize; j++)
+                for (int j = 0; j < boardSize; j++)
                 {
                     board[i, j] = new Square(i, j);
                 }
@@ -60,21 +60,20 @@ namespace MineSweeper
                 int mineX = rnd.Next(0, boardSize);
                 int mineY = rnd.Next(0, boardSize);
 
-                if (board[mineX, mineY].mine == true)
+                if (board[mineX, mineY].mine) {
                     continue;
-
-                else
-                {
-                    board[mineX, mineY].mine = true;
-                    currentMines++;
                 }
+
+                board[mineX, mineY].mine = true;
+                currentMines++;
             }
 
             //adjCheck
             foreach(Square sq in board)
             {
-                if (sq.mine == true)
+                if (sq.mine){
                     continue;
+                }
 
                 else
                 {
@@ -88,7 +87,7 @@ namespace MineSweeper
                             {
                                 if (a < 0 || a > (boardSize - 1))
                                     continue;
-                                if (board[a, b].mine == true)
+                                if (board[a, b].mine)
                                 {
                                     sq.minesAdj++;
                                 }
@@ -107,9 +106,9 @@ namespace MineSweeper
                 //setting displays
                 foreach (Square sq in board)
                 {
-                    if (sq.rev == true)
+                    if (sq.rev)
                     {
-                        if (sq.flagged == true)
+                        if (sq.flagged)
                             sq.display = "~";
 
                         else
@@ -134,9 +133,9 @@ namespace MineSweeper
                 try
                 {
                     Console.WriteLine("Which row?");
-                    userX = (int.Parse(Console.ReadLine()) -1);
+                    userX = (int.Parse(Console.ReadLine()) - 1);
                     Console.WriteLine("Which column?");
-                    userY = (int.Parse(Console.ReadLine()) -1);
+                    userY = (int.Parse(Console.ReadLine()) - 1);
                 }
                 catch (System.IndexOutOfRangeException e)
                 {
@@ -157,7 +156,7 @@ namespace MineSweeper
                 board[userX, userY].rev = true;
 
                 //lose condition
-                if (board[userX, userY].mine == true)
+                if (board[userX, userY].mine)
                 {
                     board[userX, userY].display = "X";
                     gameState++;
@@ -168,7 +167,7 @@ namespace MineSweeper
 
                 foreach (Square sq in board)
                 {
-                    if (sq.mine == false && sq.rev == true)
+                    if (sq.mine == false && sq.rev)
                         squaresRev++;
                 }
 
@@ -178,7 +177,7 @@ namespace MineSweeper
                     {
                         sq.rev = true;
 
-                        if (sq.mine == true)
+                        if (sq.mine)
                         {
                             sq.display = "X";
                         }
